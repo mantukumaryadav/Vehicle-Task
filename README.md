@@ -1,70 +1,50 @@
-# Getting Started with Create React App
+## vehicle simulation application
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Description
+This is a vehicle simulation application. The user is able to create, display, update, delete Scenario and Vehicle, a scenario can have multiple vehicles, and vehicles should be able move when user click a button based on the scenario and vehicles parameters.
 
-## Available Scripts
+## How to install and Run the project.
+npm install
+to install all the dependencies for this app.
 
-In the project directory, you can run:
+npm start
+Runs the app in the development mode.
+Openhttp://localhost:3000 to view it in your browser.
 
-### `npm start`
+## Inside this project
+## Components
+1- Scenerio
+2- Vehicle
+3- TableItem
+4- VehicleTableItem
+5- SideBar
+6- GridLines
+7- Dailoge
+8- NoScenerioAvailable
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Screens
+1- HomeScreen - The user will be able to see the vehicles by selecting the scenerios. and when the user will click on the start button then will be able to see the simulation in the below graph.
+2- AddScenerioScreen - In this screen user can add the scenerios.
+3- AddVehicleScreen - In the screen user can add vehicles.
+4- AllSceneriosScreen - In this screen user will be able to see all the scenerios.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## what we used in this project
+Technologies
+1- React js
+2- CSS3
+3- HtML5
 
-### `npm test`
+## hooks
+useState
+useEffect
+useContext
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Custom hook
+useForm in this hook we handeling all the form validation this hook contains all the logic of form validation it takes an object as an argument. and the object can have properties one is value and second is valide valid is a function that can use to validate our value. and this hook returns the validate vales and the errors also.
 
-### `npm run build`
+## react-router
+we have used react-router to make it SPA .
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Storage
+In this project we have used local-storage for storing all the scenerios.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
