@@ -1,7 +1,7 @@
-## vehicle simulation application
+## Scenario and Vehicle Management Application
 
 ## Description
-This is a vehicle simulation application. The user is able to create, display, update, delete Scenario and Vehicle, a scenario can have multiple vehicles, and vehicles should be able move when user click a button based on the scenario and vehicles parameters.
+This is a Scenario and Vehicle Management Application. The user is able to create, display, update, delete Scenario and Vehicle, a scenario can have multiple vehicles, and vehicles should be able move when user click a button based on their speed and direction.
 
 ## How to install and Run the project.
 npm install
@@ -9,7 +9,7 @@ to install all the dependencies for this app.
 
 npm start
 Runs the app in the development mode.
-Openhttp://localhost:3000 to view it in your browser.
+Open http://localhost:3000 to view it in your browser.
 
 ## Inside this project
 ## Components
