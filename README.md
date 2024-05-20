@@ -1,7 +1,8 @@
 ## Scenario and Vehicle Management Application
 
 ## Description
-This is a Scenario and Vehicle Management Application. The user is able to create, display, update, delete Scenario and Vehicle, a scenario can have multiple vehicles, and vehicles should be able move when user click a button based on their speed and direction.
+The Scenario and Vehicle Management Application is a web-based platform that allows users to create, view, update, and delete scenarios and vehicles. Each scenario can encompass multiple vehicles, and users can initiate a simulation where the vehicles move according to their specified parameters. The application is built using React.js, CSS3, and HTML5, with data stored in the browser's localStorage.
+
 
 ## How to install and Run the project.
 npm install
@@ -28,11 +29,11 @@ Open http://localhost:3000 to view it in your browser.
 3- AddVehicleScreen - In the screen user can add vehicles.
 4- AllSceneriosScreen - In this screen user will be able to see all the scenerios.
 
-## what we used in this project
-Technologies
-1- React js
-2- CSS3
-3- HtML5
+## Technology Stack
+
+- **React.js**: For building the user interface.
+- **CSS3**: For styling the application.
+- **HTML5**: For structuring the web pages.
 
 ## hooks
 useState
